@@ -1,0 +1,39 @@
+{% extends 'navigationbar.html' %}
+<style>
+    .mydivstyle:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        transform:translate (Y(-20px));
+
+    }
+</style>
+{% block body %}
+
+<div class="container" style="margin-top: 50px;">
+        <h2 class="text-center">Contact Us</h2>
+      <div class="row mt-5 text-center">
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fas fa-phone-square"></i> Contact </h4>
+            <p class="text-danger font-weight-bold mt-3"><a href="tel: +977799900000"> +977799900000</a></p>
+
+        </div>
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fa fa-envelope"></i> Send-email </h4>
+            <p class="font-weight-bold mt-3"><a href="mail to:abc@gmail.com"> abc@gmail.com</a></p>
+        </div>
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fa fa-address-card" aria-hidden="true"></i> Office Address </h4>
+            <p class="font-weight-bold mt-3"><a href="http://maps.google.com/maps?q=ghorahi">ghorahi,dang</a></p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fa fa-calendar-o" aria-hidden="true"></i> Office Time </h4>
+            <p class="font-weight-bold mt-3" >10AM TO 5PM</p>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+{% endblock %}
